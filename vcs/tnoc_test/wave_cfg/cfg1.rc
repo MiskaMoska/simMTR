@@ -1,0 +1,609 @@
+Magic 271485
+Revision Verdi3_L-2016.06-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 1920 23 1920 1017 331 196
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / -i 0 "" "/mnt/f/git/simMTR/vcs/noc_target_test/wave.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 0.100000
+cursor 4994000.000000
+marker 0.000000
+
+; visible top row signal index
+top 0
+; marker line index
+markerPos 542
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/mnt/f/git/simMTR/vcs/noc_target_test/wave.fsdb"
+addSignal -h 15 -UNSIGNED -HEX /top_tb/dut/bound_data_i_0_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_0_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_0_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_0_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_0_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_1_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_1_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_1_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_1_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_1_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_2_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_2_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_2_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_2_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_2_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_3_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_3_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_3_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_3_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_3_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_4_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_4_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_4_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_4_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_i_4_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_0_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_0_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_0_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_0_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_0_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_1_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_1_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_1_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_1_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_1_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_2_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_2_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_2_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_2_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_2_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_3_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_3_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_3_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_3_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_3_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_4_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_4_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_4_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_4_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope bound_data_o_4_4[63:0]
+addSignal -h 15 -holdScope bound_ready_i_0_0
+addSignal -h 15 -holdScope bound_ready_i_0_1
+addSignal -h 15 -holdScope bound_ready_i_0_2
+addSignal -h 15 -holdScope bound_ready_i_0_3
+addSignal -h 15 -holdScope bound_ready_i_0_4
+addSignal -h 15 -holdScope bound_ready_i_1_0
+addSignal -h 15 -holdScope bound_ready_i_1_1
+addSignal -h 15 -holdScope bound_ready_i_1_2
+addSignal -h 15 -holdScope bound_ready_i_1_3
+addSignal -h 15 -holdScope bound_ready_i_1_4
+addSignal -h 15 -holdScope bound_ready_i_2_0
+addSignal -h 15 -holdScope bound_ready_i_2_1
+addSignal -h 15 -holdScope bound_ready_i_2_2
+addSignal -h 15 -holdScope bound_ready_i_2_3
+addSignal -h 15 -holdScope bound_ready_i_2_4
+addSignal -h 15 -holdScope bound_ready_i_3_0
+addSignal -h 15 -holdScope bound_ready_i_3_1
+addSignal -h 15 -holdScope bound_ready_i_3_2
+addSignal -h 15 -holdScope bound_ready_i_3_3
+addSignal -h 15 -holdScope bound_ready_i_3_4
+addSignal -h 15 -holdScope bound_ready_i_4_0
+addSignal -h 15 -holdScope bound_ready_i_4_1
+addSignal -h 15 -holdScope bound_ready_i_4_2
+addSignal -h 15 -holdScope bound_ready_i_4_3
+addSignal -h 15 -holdScope bound_ready_i_4_4
+addSignal -h 15 -holdScope bound_ready_o_0_0
+addSignal -h 15 -holdScope bound_ready_o_0_1
+addSignal -h 15 -holdScope bound_ready_o_0_2
+addSignal -h 15 -holdScope bound_ready_o_0_3
+addSignal -h 15 -holdScope bound_ready_o_0_4
+addSignal -h 15 -holdScope bound_ready_o_1_0
+addSignal -h 15 -holdScope bound_ready_o_1_1
+addSignal -h 15 -holdScope bound_ready_o_1_2
+addSignal -h 15 -holdScope bound_ready_o_1_3
+addSignal -h 15 -holdScope bound_ready_o_1_4
+addSignal -h 15 -holdScope bound_ready_o_2_0
+addSignal -h 15 -holdScope bound_ready_o_2_1
+addSignal -h 15 -holdScope bound_ready_o_2_2
+addSignal -h 15 -holdScope bound_ready_o_2_3
+addSignal -h 15 -holdScope bound_ready_o_2_4
+addSignal -h 15 -holdScope bound_ready_o_3_0
+addSignal -h 15 -holdScope bound_ready_o_3_1
+addSignal -h 15 -holdScope bound_ready_o_3_2
+addSignal -h 15 -holdScope bound_ready_o_3_3
+addSignal -h 15 -holdScope bound_ready_o_3_4
+addSignal -h 15 -holdScope bound_ready_o_4_0
+addSignal -h 15 -holdScope bound_ready_o_4_1
+addSignal -h 15 -holdScope bound_ready_o_4_2
+addSignal -h 15 -holdScope bound_ready_o_4_3
+addSignal -h 15 -holdScope bound_ready_o_4_4
+addSignal -h 15 -holdScope bound_valid_i_0_0
+addSignal -h 15 -holdScope bound_valid_i_0_1
+addSignal -h 15 -holdScope bound_valid_i_0_2
+addSignal -h 15 -holdScope bound_valid_i_0_3
+addSignal -h 15 -holdScope bound_valid_i_0_4
+addSignal -h 15 -holdScope bound_valid_i_1_0
+addSignal -h 15 -holdScope bound_valid_i_1_1
+addSignal -h 15 -holdScope bound_valid_i_1_2
+addSignal -h 15 -holdScope bound_valid_i_1_3
+addSignal -h 15 -holdScope bound_valid_i_1_4
+addSignal -h 15 -holdScope bound_valid_i_2_0
+addSignal -h 15 -holdScope bound_valid_i_2_1
+addSignal -h 15 -holdScope bound_valid_i_2_2
+addSignal -h 15 -holdScope bound_valid_i_2_3
+addSignal -h 15 -holdScope bound_valid_i_2_4
+addSignal -h 15 -holdScope bound_valid_i_3_0
+addSignal -h 15 -holdScope bound_valid_i_3_1
+addSignal -h 15 -holdScope bound_valid_i_3_2
+addSignal -h 15 -holdScope bound_valid_i_3_3
+addSignal -h 15 -holdScope bound_valid_i_3_4
+addSignal -h 15 -holdScope bound_valid_i_4_0
+addSignal -h 15 -holdScope bound_valid_i_4_1
+addSignal -h 15 -holdScope bound_valid_i_4_2
+addSignal -h 15 -holdScope bound_valid_i_4_3
+addSignal -h 15 -holdScope bound_valid_i_4_4
+addSignal -h 15 -holdScope bound_valid_o_0_0
+addSignal -h 15 -holdScope bound_valid_o_0_1
+addSignal -h 15 -holdScope bound_valid_o_0_2
+addSignal -h 15 -holdScope bound_valid_o_0_3
+addSignal -h 15 -holdScope bound_valid_o_0_4
+addSignal -h 15 -holdScope bound_valid_o_1_0
+addSignal -h 15 -holdScope bound_valid_o_1_1
+addSignal -h 15 -holdScope bound_valid_o_1_2
+addSignal -h 15 -holdScope bound_valid_o_1_3
+addSignal -h 15 -holdScope bound_valid_o_1_4
+addSignal -h 15 -holdScope bound_valid_o_2_0
+addSignal -h 15 -holdScope bound_valid_o_2_1
+addSignal -h 15 -holdScope bound_valid_o_2_2
+addSignal -h 15 -holdScope bound_valid_o_2_3
+addSignal -h 15 -holdScope bound_valid_o_2_4
+addSignal -h 15 -holdScope bound_valid_o_3_0
+addSignal -h 15 -holdScope bound_valid_o_3_1
+addSignal -h 15 -holdScope bound_valid_o_3_2
+addSignal -h 15 -holdScope bound_valid_o_3_3
+addSignal -h 15 -holdScope bound_valid_o_3_4
+addSignal -h 15 -holdScope bound_valid_o_4_0
+addSignal -h 15 -holdScope bound_valid_o_4_1
+addSignal -h 15 -holdScope bound_valid_o_4_2
+addSignal -h 15 -holdScope bound_valid_o_4_3
+addSignal -h 15 -holdScope bound_valid_o_4_4
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_0_to_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_0_to_5[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_1_to_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_1_to_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_1_to_6[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_2_to_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_2_to_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_2_to_7[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_3_to_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_3_to_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_3_to_8[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_4_to_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_4_to_9[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_5_to_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_5_to_6[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_5_to_10[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_6_to_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_6_to_5[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_6_to_7[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_6_to_11[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_7_to_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_7_to_6[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_7_to_8[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_7_to_12[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_8_to_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_8_to_7[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_8_to_9[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_8_to_13[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_9_to_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_9_to_8[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_9_to_14[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_10_to_5[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_10_to_11[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_10_to_15[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_11_to_6[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_11_to_10[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_11_to_12[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_11_to_16[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_12_to_7[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_12_to_11[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_12_to_13[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_12_to_17[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_13_to_8[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_13_to_12[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_13_to_14[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_13_to_18[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_14_to_9[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_14_to_13[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_14_to_19[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_15_to_10[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_15_to_16[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_15_to_20[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_16_to_11[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_16_to_15[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_16_to_17[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_16_to_21[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_17_to_12[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_17_to_16[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_17_to_18[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_17_to_22[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_18_to_13[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_18_to_17[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_18_to_19[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_18_to_23[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_19_to_14[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_19_to_18[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_19_to_24[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_20_to_15[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_20_to_21[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_21_to_16[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_21_to_20[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_21_to_22[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_22_to_17[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_22_to_21[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_22_to_23[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_23_to_18[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_23_to_22[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_23_to_24[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_24_to_19[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_24_to_23[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_0_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_0_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_0_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_0_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_0_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_1_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_1_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_1_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_1_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_1_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_2_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_2_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_2_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_2_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_2_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_3_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_3_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_3_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_3_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_3_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_4_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_4_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_4_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_4_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_i_4_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_0_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_0_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_0_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_0_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_0_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_1_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_1_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_1_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_1_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_1_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_2_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_2_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_2_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_2_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_2_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_3_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_3_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_3_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_3_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_3_4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_4_0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_4_1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_4_2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_4_3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope local_data_o_4_4[63:0]
+addSignal -h 15 -holdScope local_ready_i_0_0
+addSignal -h 15 -holdScope local_ready_i_0_1
+addSignal -h 15 -holdScope local_ready_i_0_2
+addSignal -h 15 -holdScope local_ready_i_0_3
+addSignal -h 15 -holdScope local_ready_i_0_4
+addSignal -h 15 -holdScope local_ready_i_1_0
+addSignal -h 15 -holdScope local_ready_i_1_1
+addSignal -h 15 -holdScope local_ready_i_1_2
+addSignal -h 15 -holdScope local_ready_i_1_3
+addSignal -h 15 -holdScope local_ready_i_1_4
+addSignal -h 15 -holdScope local_ready_i_2_0
+addSignal -h 15 -holdScope local_ready_i_2_1
+addSignal -h 15 -holdScope local_ready_i_2_2
+addSignal -h 15 -holdScope local_ready_i_2_3
+addSignal -h 15 -holdScope local_ready_i_2_4
+addSignal -h 15 -holdScope local_ready_i_3_0
+addSignal -h 15 -holdScope local_ready_i_3_1
+addSignal -h 15 -holdScope local_ready_i_3_2
+addSignal -h 15 -holdScope local_ready_i_3_3
+addSignal -h 15 -holdScope local_ready_i_3_4
+addSignal -h 15 -holdScope local_ready_i_4_0
+addSignal -h 15 -holdScope local_ready_i_4_1
+addSignal -h 15 -holdScope local_ready_i_4_2
+addSignal -h 15 -holdScope local_ready_i_4_3
+addSignal -h 15 -holdScope local_ready_i_4_4
+addSignal -h 15 -holdScope local_ready_o_0_0
+addSignal -h 15 -holdScope local_ready_o_0_1
+addSignal -h 15 -holdScope local_ready_o_0_2
+addSignal -h 15 -holdScope local_ready_o_0_3
+addSignal -h 15 -holdScope local_ready_o_0_4
+addSignal -h 15 -holdScope local_ready_o_1_0
+addSignal -h 15 -holdScope local_ready_o_1_1
+addSignal -h 15 -holdScope local_ready_o_1_2
+addSignal -h 15 -holdScope local_ready_o_1_3
+addSignal -h 15 -holdScope local_ready_o_1_4
+addSignal -h 15 -holdScope local_ready_o_2_0
+addSignal -h 15 -holdScope local_ready_o_2_1
+addSignal -h 15 -holdScope local_ready_o_2_2
+addSignal -h 15 -holdScope local_ready_o_2_3
+addSignal -h 15 -holdScope local_ready_o_2_4
+addSignal -h 15 -holdScope local_ready_o_3_0
+addSignal -h 15 -holdScope local_ready_o_3_1
+addSignal -h 15 -holdScope local_ready_o_3_2
+addSignal -h 15 -holdScope local_ready_o_3_3
+addSignal -h 15 -holdScope local_ready_o_3_4
+addSignal -h 15 -holdScope local_ready_o_4_0
+addSignal -h 15 -holdScope local_ready_o_4_1
+addSignal -h 15 -holdScope local_ready_o_4_2
+addSignal -h 15 -holdScope local_ready_o_4_3
+addSignal -h 15 -holdScope local_ready_o_4_4
+addSignal -h 15 -holdScope local_valid_i_0_0
+addSignal -h 15 -holdScope local_valid_i_0_1
+addSignal -h 15 -holdScope local_valid_i_0_2
+addSignal -h 15 -holdScope local_valid_i_0_3
+addSignal -h 15 -holdScope local_valid_i_0_4
+addSignal -h 15 -holdScope local_valid_i_1_0
+addSignal -h 15 -holdScope local_valid_i_1_1
+addSignal -h 15 -holdScope local_valid_i_1_2
+addSignal -h 15 -holdScope local_valid_i_1_3
+addSignal -h 15 -holdScope local_valid_i_1_4
+addSignal -h 15 -holdScope local_valid_i_2_0
+addSignal -h 15 -holdScope local_valid_i_2_1
+addSignal -h 15 -holdScope local_valid_i_2_2
+addSignal -h 15 -holdScope local_valid_i_2_3
+addSignal -h 15 -holdScope local_valid_i_2_4
+addSignal -h 15 -holdScope local_valid_i_3_0
+addSignal -h 15 -holdScope local_valid_i_3_1
+addSignal -h 15 -holdScope local_valid_i_3_2
+addSignal -h 15 -holdScope local_valid_i_3_3
+addSignal -h 15 -holdScope local_valid_i_3_4
+addSignal -h 15 -holdScope local_valid_i_4_0
+addSignal -h 15 -holdScope local_valid_i_4_1
+addSignal -h 15 -holdScope local_valid_i_4_2
+addSignal -h 15 -holdScope local_valid_i_4_3
+addSignal -h 15 -holdScope local_valid_i_4_4
+addSignal -h 15 -holdScope local_valid_o_0_0
+addSignal -h 15 -holdScope local_valid_o_0_1
+addSignal -h 15 -holdScope local_valid_o_0_2
+addSignal -h 15 -holdScope local_valid_o_0_3
+addSignal -h 15 -holdScope local_valid_o_0_4
+addSignal -h 15 -holdScope local_valid_o_1_0
+addSignal -h 15 -holdScope local_valid_o_1_1
+addSignal -h 15 -holdScope local_valid_o_1_2
+addSignal -h 15 -holdScope local_valid_o_1_3
+addSignal -h 15 -holdScope local_valid_o_1_4
+addSignal -h 15 -holdScope local_valid_o_2_0
+addSignal -h 15 -holdScope local_valid_o_2_1
+addSignal -h 15 -holdScope local_valid_o_2_2
+addSignal -h 15 -holdScope local_valid_o_2_3
+addSignal -h 15 -holdScope local_valid_o_2_4
+addSignal -h 15 -holdScope local_valid_o_3_0
+addSignal -h 15 -holdScope local_valid_o_3_1
+addSignal -h 15 -holdScope local_valid_o_3_2
+addSignal -h 15 -holdScope local_valid_o_3_3
+addSignal -h 15 -holdScope local_valid_o_3_4
+addSignal -h 15 -holdScope local_valid_o_4_0
+addSignal -h 15 -holdScope local_valid_o_4_1
+addSignal -h 15 -holdScope local_valid_o_4_2
+addSignal -h 15 -holdScope local_valid_o_4_3
+addSignal -h 15 -holdScope local_valid_o_4_4
+addSignal -h 15 -holdScope ready_0_to_1
+addSignal -h 15 -holdScope ready_0_to_5
+addSignal -h 15 -holdScope ready_1_to_0
+addSignal -h 15 -holdScope ready_1_to_2
+addSignal -h 15 -holdScope ready_1_to_6
+addSignal -h 15 -holdScope ready_2_to_1
+addSignal -h 15 -holdScope ready_2_to_3
+addSignal -h 15 -holdScope ready_2_to_7
+addSignal -h 15 -holdScope ready_3_to_2
+addSignal -h 15 -holdScope ready_3_to_4
+addSignal -h 15 -holdScope ready_3_to_8
+addSignal -h 15 -holdScope ready_4_to_3
+addSignal -h 15 -holdScope ready_4_to_9
+addSignal -h 15 -holdScope ready_5_to_0
+addSignal -h 15 -holdScope ready_5_to_6
+addSignal -h 15 -holdScope ready_5_to_10
+addSignal -h 15 -holdScope ready_6_to_1
+addSignal -h 15 -holdScope ready_6_to_5
+addSignal -h 15 -holdScope ready_6_to_7
+addSignal -h 15 -holdScope ready_6_to_11
+addSignal -h 15 -holdScope ready_7_to_2
+addSignal -h 15 -holdScope ready_7_to_6
+addSignal -h 15 -holdScope ready_7_to_8
+addSignal -h 15 -holdScope ready_7_to_12
+addSignal -h 15 -holdScope ready_8_to_3
+addSignal -h 15 -holdScope ready_8_to_7
+addSignal -h 15 -holdScope ready_8_to_9
+addSignal -h 15 -holdScope ready_8_to_13
+addSignal -h 15 -holdScope ready_9_to_4
+addSignal -h 15 -holdScope ready_9_to_8
+addSignal -h 15 -holdScope ready_9_to_14
+addSignal -h 15 -holdScope ready_10_to_5
+addSignal -h 15 -holdScope ready_10_to_11
+addSignal -h 15 -holdScope ready_10_to_15
+addSignal -h 15 -holdScope ready_11_to_6
+addSignal -h 15 -holdScope ready_11_to_10
+addSignal -h 15 -holdScope ready_11_to_12
+addSignal -h 15 -holdScope ready_11_to_16
+addSignal -h 15 -holdScope ready_12_to_7
+addSignal -h 15 -holdScope ready_12_to_11
+addSignal -h 15 -holdScope ready_12_to_13
+addSignal -h 15 -holdScope ready_12_to_17
+addSignal -h 15 -holdScope ready_13_to_8
+addSignal -h 15 -holdScope ready_13_to_12
+addSignal -h 15 -holdScope ready_13_to_14
+addSignal -h 15 -holdScope ready_13_to_18
+addSignal -h 15 -holdScope ready_14_to_9
+addSignal -h 15 -holdScope ready_14_to_13
+addSignal -h 15 -holdScope ready_14_to_19
+addSignal -h 15 -holdScope ready_15_to_10
+addSignal -h 15 -holdScope ready_15_to_16
+addSignal -h 15 -holdScope ready_15_to_20
+addSignal -h 15 -holdScope ready_16_to_11
+addSignal -h 15 -holdScope ready_16_to_15
+addSignal -h 15 -holdScope ready_16_to_17
+addSignal -h 15 -holdScope ready_16_to_21
+addSignal -h 15 -holdScope ready_17_to_12
+addSignal -h 15 -holdScope ready_17_to_16
+addSignal -h 15 -holdScope ready_17_to_18
+addSignal -h 15 -holdScope ready_17_to_22
+addSignal -h 15 -holdScope ready_18_to_13
+addSignal -h 15 -holdScope ready_18_to_17
+addSignal -h 15 -holdScope ready_18_to_19
+addSignal -h 15 -holdScope ready_18_to_23
+addSignal -h 15 -holdScope ready_19_to_14
+addSignal -h 15 -holdScope ready_19_to_18
+addSignal -h 15 -holdScope ready_19_to_24
+addSignal -h 15 -holdScope ready_20_to_15
+addSignal -h 15 -holdScope ready_20_to_21
+addSignal -h 15 -holdScope ready_21_to_16
+addSignal -h 15 -holdScope ready_21_to_20
+addSignal -h 15 -holdScope ready_21_to_22
+addSignal -h 15 -holdScope ready_22_to_17
+addSignal -h 15 -holdScope ready_22_to_21
+addSignal -h 15 -holdScope ready_22_to_23
+addSignal -h 15 -holdScope ready_23_to_18
+addSignal -h 15 -holdScope ready_23_to_22
+addSignal -h 15 -holdScope ready_23_to_24
+addSignal -h 15 -holdScope ready_24_to_19
+addSignal -h 15 -holdScope ready_24_to_23
+addSignal -h 15 -holdScope rstn
+addSignal -h 15 -holdScope valid_0_to_1
+addSignal -h 15 -holdScope valid_0_to_5
+addSignal -h 15 -holdScope valid_1_to_0
+addSignal -h 15 -holdScope valid_1_to_2
+addSignal -h 15 -holdScope valid_1_to_6
+addSignal -h 15 -holdScope valid_2_to_1
+addSignal -h 15 -holdScope valid_2_to_3
+addSignal -h 15 -holdScope valid_2_to_7
+addSignal -h 15 -holdScope valid_3_to_2
+addSignal -h 15 -holdScope valid_3_to_4
+addSignal -h 15 -holdScope valid_3_to_8
+addSignal -h 15 -holdScope valid_4_to_3
+addSignal -h 15 -holdScope valid_4_to_9
+addSignal -h 15 -holdScope valid_5_to_0
+addSignal -h 15 -holdScope valid_5_to_6
+addSignal -h 15 -holdScope valid_5_to_10
+addSignal -h 15 -holdScope valid_6_to_1
+addSignal -h 15 -holdScope valid_6_to_5
+addSignal -h 15 -holdScope valid_6_to_7
+addSignal -h 15 -holdScope valid_6_to_11
+addSignal -h 15 -holdScope valid_7_to_2
+addSignal -h 15 -holdScope valid_7_to_6
+addSignal -h 15 -holdScope valid_7_to_8
+addSignal -h 15 -holdScope valid_7_to_12
+addSignal -h 15 -holdScope valid_8_to_3
+addSignal -h 15 -holdScope valid_8_to_7
+addSignal -h 15 -holdScope valid_8_to_9
+addSignal -h 15 -holdScope valid_8_to_13
+addSignal -h 15 -holdScope valid_9_to_4
+addSignal -h 15 -holdScope valid_9_to_8
+addSignal -h 15 -holdScope valid_9_to_14
+addSignal -h 15 -holdScope valid_10_to_5
+addSignal -h 15 -holdScope valid_10_to_11
+addSignal -h 15 -holdScope valid_10_to_15
+addSignal -h 15 -holdScope valid_11_to_6
+addSignal -h 15 -holdScope valid_11_to_10
+addSignal -h 15 -holdScope valid_11_to_12
+addSignal -h 15 -holdScope valid_11_to_16
+addSignal -h 15 -holdScope valid_12_to_7
+addSignal -h 15 -holdScope valid_12_to_11
+addSignal -h 15 -holdScope valid_12_to_13
+addSignal -h 15 -holdScope valid_12_to_17
+addSignal -h 15 -holdScope valid_13_to_8
+addSignal -h 15 -holdScope valid_13_to_12
+addSignal -h 15 -holdScope valid_13_to_14
+addSignal -h 15 -holdScope valid_13_to_18
+addSignal -h 15 -holdScope valid_14_to_9
+addSignal -h 15 -holdScope valid_14_to_13
+addSignal -h 15 -holdScope valid_14_to_19
+addSignal -h 15 -holdScope valid_15_to_10
+addSignal -h 15 -holdScope valid_15_to_16
+addSignal -h 15 -holdScope valid_15_to_20
+addSignal -h 15 -holdScope valid_16_to_11
+addSignal -h 15 -holdScope valid_16_to_15
+addSignal -h 15 -holdScope valid_16_to_17
+addSignal -h 15 -holdScope valid_16_to_21
+addSignal -h 15 -holdScope valid_17_to_12
+addSignal -h 15 -holdScope valid_17_to_16
+addSignal -h 15 -holdScope valid_17_to_18
+addSignal -h 15 -holdScope valid_17_to_22
+addSignal -h 15 -holdScope valid_18_to_13
+addSignal -h 15 -holdScope valid_18_to_17
+addSignal -h 15 -holdScope valid_18_to_19
+addSignal -h 15 -holdScope valid_18_to_23
+addSignal -h 15 -holdScope valid_19_to_14
+addSignal -h 15 -holdScope valid_19_to_18
+addSignal -h 15 -holdScope valid_19_to_24
+addSignal -h 15 -holdScope valid_20_to_15
+addSignal -h 15 -holdScope valid_20_to_21
+addSignal -h 15 -holdScope valid_21_to_16
+addSignal -h 15 -holdScope valid_21_to_20
+addSignal -h 15 -holdScope valid_21_to_22
+addSignal -h 15 -holdScope valid_22_to_17
+addSignal -h 15 -holdScope valid_22_to_21
+addSignal -h 15 -holdScope valid_22_to_23
+addSignal -h 15 -holdScope valid_23_to_18
+addSignal -h 15 -holdScope valid_23_to_22
+addSignal -h 15 -holdScope valid_23_to_24
+addSignal -h 15 -holdScope valid_24_to_19
+addSignal -h 15 -holdScope valid_24_to_23
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/mnt/f/git/simMTR/vcs/noc_target_test/wave.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/top_tb"
+"/top_tb/dut"
+
+SCOPE_LIST_BEGIN
+"/top_tb"
+"/top_tb/dut"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

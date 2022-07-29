@@ -1,0 +1,205 @@
+Magic 271485
+Revision Verdi3_L-2016.06-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 23 1536 801 323 242
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/mnt/f/git/simMTR/vcs/router_test/wave.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 61497.199556 98768.229589
+cursor 82000.000000
+marker 46000.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 84
+; marker line index
+markerPos 107
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "bound_input_stage"
+activeDirFile "" "/mnt/f/git/simMTR/vcs/router_test/wave.fsdb"
+addSignal -h 15 /top_tb/dut/input_stage_bound/clk
+addSignal -h 15 -holdScope rstn
+addSignal -h 15 -holdScope VCgranted
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_i[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope fifo_din[63:0]
+addSignal -h 15 -holdScope valid_i
+addSignal -h 15 -holdScope ready_o
+addSignal -h 15 -holdScope fifo_write
+addSignal -h 15 -holdScope fifo_full
+addSignal -h 15 /BLANK
+addSignal -h 15 -UNSIGNED -HEX /top_tb/dut/input_stage_bound/fifo_dout[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_o[63:0]
+addSignal -h 15 -holdScope fifo_empty
+addSignal -h 15 -holdScope fifo_read
+addSignal -h 15 -holdScope ready_i
+addSignal -h 15 -UNSIGNED -HEX -holdScope candidateOutVC[5:0]
+addGroup "bound_input rc"
+addSignal -h 15 /top_tb/dut/input_stage_bound/rc/clk
+addSignal -h 15 -holdScope rstn
+addSignal -h 15 -UNSIGNED -HEX -holdScope candidateOutVC[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope drid_x[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope drid_y[3:0]
+addSignal -h 15 -holdScope outbound
+addSignal -h 15 -UNSIGNED -HEX /top_tb/dut/input_stage_bound/reqVC[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selOutVC[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selXBVC[5:0]
+addSignal -h 15 -holdScope valid_o
+addGroup "VA"
+addSignal -h 15 -UNSIGNED -HEX /top_tb/dut/vc_allocator/VCgranted[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope arb_grt_to_VC0[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope arb_grt_to_VC1[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope arb_grt_to_VC2[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope arb_grt_to_VC3[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope arb_grt_to_VC4[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope arb_grt_to_VC5[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope arb_req_to_VC0[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope arb_req_to_VC1[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope arb_req_to_VC2[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope arb_req_to_VC3[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope arb_req_to_VC4[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope arb_req_to_VC5[5:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -UNSIGNED -HEX -holdScope outVCAvailableReset[5:0]
+addSignal -h 19 -UNSIGNED -BIN -holdScope outVCAvailable[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope reqMaskedVCfromVC0[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope reqMaskedVCfromVC1[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope reqMaskedVCfromVC2[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope reqMaskedVCfromVC3[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope reqMaskedVCfromVC4[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope reqMaskedVCfromVC5[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope reqVCfromVC0[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope reqVCfromVC1[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope reqVCfromVC2[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope reqVCfromVC3[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope reqVCfromVC4[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope reqVCfromVC5[5:0]
+addSignal -h 15 -holdScope rstn
+addSignal -h 15 -UNSIGNED -HEX -holdScope selOutVCtoVC0[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selOutVCtoVC1[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selOutVCtoVC2[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selOutVCtoVC3[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selOutVCtoVC4[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selOutVCtoVC5[5:0]
+addGroup "west_input stage"
+addSignal -h 15 /top_tb/dut/input_stage_west/VCgranted
+addSignal -h 15 -UNSIGNED -HEX -holdScope candidateOutVC[5:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_i[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_o[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope fifo_din[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope fifo_dout[63:0]
+addSignal -h 15 -UNSIGNED -BIN /top_tb/dut/vc_allocator/outVCAvailable[5:0]
+addSignal -h 15 /top_tb/dut/input_stage_west/fifo_empty
+addSignal -h 15 -holdScope fifo_full
+addSignal -h 15 -holdScope fifo_read
+addSignal -h 15 -holdScope fifo_write
+addSignal -h 15 -holdScope fire
+addSignal -h 15 -holdScope ready_i
+addSignal -h 15 -holdScope ready_o
+addSignal -h 15 -UNSIGNED -HEX -holdScope reqVC[5:0]
+addSignal -h 15 -holdScope rstn
+addSignal -h 15 -UNSIGNED -HEX -holdScope selOutVC[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selXBVC[5:0]
+addSignal -h 15 -holdScope valid_i
+addSignal -h 15 -holdScope valid_o
+addGroup "east output_stage"
+addSignal -h 15 /top_tb/dut/output_stage_vc3/clk
+addSignal -h 15 -holdScope flit_fire
+addSignal -h 15 -UNSIGNED -HEX -holdScope flit_type[1:0]
+addSignal -h 15 -holdScope outVCAvailable
+addSignal -h 15 -holdScope outVCAvailableReset
+addSignal -h 15 -holdScope rstn
+addGroup "crossbar"
+addSignal -h 15 -UNSIGNED -HEX /top_tb/dut/crossbar/data_in_vc0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_in_vc1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_in_vc2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_in_vc3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_in_vc4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_in_vc5[63:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 -UNSIGNED -HEX /top_tb/dut/crossbar/data_out_vc0[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_out_vc1[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_out_vc2[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_out_vc3[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_out_vc4[63:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope data_out_vc5[63:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope valid_out[5:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope ready_in[5:0]
+addSignal -h 15 /BLANK
+addSignal -h 15 -UNSIGNED -HEX /top_tb/dut/crossbar/mux_sel_vc0[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mux_sel_vc1[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mux_sel_vc2[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mux_sel_vc3[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mux_sel_vc4[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mux_sel_vc5[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ready_out[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selVCfromVC0[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selVCfromVC1[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selVCfromVC2[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selVCfromVC3[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selVCfromVC4[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope selVCfromVC5[5:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope valid_in[5:0]
+addGroup "G7"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/mnt/f/git/simMTR/vcs/router_test/wave.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/top_tb"
+"/top_tb/dut"
+"/top_tb/dut/input_stage_west"
+"/top_tb/dut/output_stage_vc3"
+"/top_tb/dut/vc_allocator"
+
+SCOPE_LIST_BEGIN
+"/top_tb"
+"/top_tb/dut/input_stage_bound/ctlr"
+"/top_tb/dut/input_stage_bound"
+"/top_tb/dut"
+"/top_tb/dut/input_stage_bound/rc"
+"/top_tb/dut/vc_allocator"
+"/top_tb/dut/input_stage_west/ctlr"
+"/top_tb/dut/input_stage_west/fifo"
+"/top_tb/dut/input_stage_west"
+"/top_tb/dut/output_stage_vc2"
+"/top_tb/dut/output_stage_vc3"
+"/top_tb/dut/crossbar"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

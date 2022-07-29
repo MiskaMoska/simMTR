@@ -1,0 +1,10 @@
+UVM_INFO ./srcs/mtr_scoreboard.sv(176) @ 1005405000: uvm_test_top.env.sb [mtr_scoreboard] finished getting latency
+UVM_INFO ./srcs/mtr_scoreboard.sv(131) @ 1005405000: uvm_test_top.env.sb [mtr_scoreboard] flit_num:35236.000000
+UVM_INFO ./srcs/mtr_scoreboard.sv(132) @ 1005405000: uvm_test_top.env.sb [mtr_scoreboard] elapsed_time:6687.000000
+UVM_INFO ./srcs/mtr_scoreboard.sv(178) @ 1005405000: uvm_test_top.env.sb [mtr_scoreboard] finished getting throughput
+UVM_INFO ./srcs/mtr_scoreboard.sv(179) @ 1005405000: uvm_test_top.env.sb [mtr_scoreboard] 
+Average Latency:382.676875
+
+UVM_INFO ./srcs/mtr_scoreboard.sv(180) @ 1005405000: uvm_test_top.env.sb [mtr_scoreboard] 
+Throughput:10.538657
+
