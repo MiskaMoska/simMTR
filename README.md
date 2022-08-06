@@ -2,7 +2,7 @@ The size of all NoCs (including the target NoCs and the interposer NoC) is fixed
 
 If the boundary routers are changed, you should do the following steps before reloading the UVM test:
 
-1. First you must have the case index of the boundary router placement to be tested and the corresponding output log file, about the index and the log file please refer to https://github.com/MiskaMoska/Fast-TRA/cpp.
+1. First you must have the case index of the boundary router placement to be tested and the corresponding output log file, about the index and the log file please refer to branch "cpp" of the repos in https://github.com/MiskaMoska/Fast-TRA.
 2. Change the parameters in `table/main.py` and run it to get the BRL and the Mapping Table, the Mapping Table should be written to  `vcs/mtr_test/srcs/route_table.sv` to replace the old one, and the BRL is used in the following steps.
 3. Change `BRL_LIST` in `scripts/genMTR.py` with the abovementioned BRL, which means `rtl/MTR.v` should be regenerated.
 4. Change `brid_x` and `brid_y` in `vcs/mtr_test/srcs/test_params.svh`.
